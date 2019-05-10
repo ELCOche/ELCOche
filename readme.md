@@ -1,4 +1,4 @@
-#H1 ELCOche
+# ELCOche
 This project has been created by:
  + Mª del Pilar Aguilera Manzanera
  + Enrique Calatayud Candelas
@@ -17,12 +17,12 @@ The project is divided in 3 parts; First one that consists on building the car f
 
 ![alt text][logo]
 
-[logo]: https://github.com/https://github.com/ELCOche/ELCOche/images/logo.png "Logo"
+[logo]: https://github.com/https://github.com/ELCOche/ELCOche/Images/logo.png "Logo"
 
 ![alt text][car]
 
-[car]: https://github.com/https://github.com/ELCOche/ELCOche/images/car.png "car"
+[car]: https://github.com/https://github.com/ELCOche/ELCOche/Images/car.png "car"
 
 ![alt text][wheel]
 
-[wheel]: https://github.com/https://github.com/ELCOche/ELCOche/images/steeringwheel.png "wheel"
+[wheel]: https://github.com/https://github.com/ELCOche/ELCOche/Images/steeringwheel.png "wheel"
