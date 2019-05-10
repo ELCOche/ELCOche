@@ -17,12 +17,12 @@ The project is divided in 3 parts; First one that consists on building the car f
 
 ![alt text][logo]
 
-[logo]: https://github.com/https://github.com/ELCOche/ELCOche/Images/logo.png "Logo"
+[logo]: https://github.com/ELCOche/ELCOche/blob/master/Images/logo.png "Logo"
 
 ![alt text][car]
 
-[car]: https://github.com/https://github.com/ELCOche/ELCOche/Images/car.png "car"
+[car]: https://github.com/ELCOche/ELCOche/blob/master/Images/car.png "car"
 
 ![alt text][wheel]
 
-[wheel]: https://github.com/https://github.com/ELCOche/ELCOche/Images/steeringwheel.png "wheel"
+[wheel]: https://github.com/ELCOche/ELCOche/blob/master/Images/steeringwheel.png "wheel"
