@@ -1617,7 +1617,7 @@ background: url(../img/banner/vol1.png); }
   min-height: 580px; }
 
 .video_area_inner {
-  background-image: url(../img/background/bg1.jpg);
+  background-image: url(../img/galery/DSC03435.jpg);
   min-height: 580px;
   background-size: cover;
   background-position: center;
@@ -3599,5 +3599,8 @@ h6 {
           font-size: 14px; }
 
 /*---------------------------------------------------- */
+
+
+
 
 /*# sourceMappingURL=style.css.map */

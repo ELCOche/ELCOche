@@ -1,0 +1,409 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="img/favicon.png" type="image/png">
+    <title>ELCOche</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="vendors/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="vendors/lightbox/simpleLightbox.css">
+    <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
+    <link rel="stylesheet" href="vendors/animate-css/animate.css">
+    <link rel="stylesheet" href="vendors/popup/magnific-popup.css">
+    <!-- main css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+
+<style type ="text/css">
+body {
+  background: #444;
+  margin: 0;
+  font-family: monospace;
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+}
+
+/*Estilos de la galeria*/
+
+.galeria {
+  width: 90%;
+  margin: auto;
+  list-style: none;
+  padding: 20px;
+  box-sizing: border-box;
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.galeria li {
+  margin: 5px;
+}
+
+.galeria img {
+  width: 150px;
+  height: 100px;
+}
+
+/*Estilos del modal*/
+
+.modal {
+  display: none;
+}
+
+.modal:target {
+  
+  display: block;
+  position: fixed;
+  background: rgba(0,0,0,0.8);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.modal h3 {
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  margin: 15px 0;
+}
+
+.imagen {
+  width: 100%;
+  height: 50%;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagen a {
+  color: #fff;
+  font-size: 40px;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.imagen a:nth-child(2) {
+  margin: 0;
+  height: 100%;
+  flex-shrink: 2;
+}
+
+.imagen img {
+  width: 500px;
+  height: 100%;
+  max-width: 100%;
+  border: 7px solid #fff;
+  box-sizing: border-box;
+}
+
+.cerrar {
+  display: block;
+  background: #fff;
+  width: 25px;
+  height: 25px;
+  margin: 15px auto;
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+  color: #000;
+  padding: 5px;
+  border-radius: 50%;
+  line-height: 25px;
+}
+
+
+</style>  
+
+    <div class="site-main">
+
+
+      <!--================Header Menu Area =================-->
+      <header class="header_area">
+          <div class="main_menu">
+              <nav class="navbar navbar-expand-lg navbar-light">
+                  <div class="container-fluid">
+                      <!-- Brand and toggle get grouped for better mobile display -->
+                      <a class="navbar-brand logo_h" href="index.html"><img src="img/logo_ELCOche.png" width="150" height="100"alt=""></a>
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                      </button>
+                      <!-- Collect the nav links, forms, and other content for toggling -->
+                      <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+                          <ul class="nav navbar-nav menu_nav justify-content-center">
+                              <li class="nav-item active"><a class="nav-link" href="index.html">Inicio</a></li>
+                              <li class="nav-item"><a class="nav-link" href="about-us.html">Sobre nosotros</a></li>
+                                  <li class="nav-item"><a class="nav-link" href="service.html">Productos</a></li>
+                                  <li class="nav-item"><a class="nav-link" href="contact.html">Contacto</a></li>
+                                  <li class="nav-item"><a class="nav-link" href="galeria.html">Galería</a></li>
+                              </ul>
+                              <ul class="nav navbar-nav navbar-right">
+                                  <li class="call-us"><a href=""><i class="ti-headphone-alt"></i>+34 563 693 75</a></li>
+                              </ul>
+                          </div>
+                      </div>
+                  </nav>
+              </div>
+          </header>
+          <!--================Header Menu Area =================-->
+
+            <!--================Home Banner Area =================-->
+            <section class="banner_area">
+              <div class="banner_inner d-flex align-items-center">
+                <div class="container">
+                  <div
+                  class="banner_content d-md-flex justify-content-between align-items-center"
+                  >
+                  <div class="mb-3 mb-md-0">
+                      <h2>Galería de imagenes</h2> 
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  <!--================End Home Banner Area =================-->
+
+
+
+
+  <!--================Galery Area =================-->
+
+  <ul class="galeria">
+    <li><a href="#img1"><img src="img/galery/DSC03386.jpg"></a></li>
+    <li><a href="#img2"><img src="img/galery/DSC03420.JPG"></a></li>
+    <li><a href="#img3"><img src="img/galery/DSC03423.JPG"></a></li>
+    <li><a href="#img4"><img src="img/galery/DSC03428.jpg"></a></li>
+    <li><a href="#img5"><img src="img/galery/DSC03430.jpg"></a></li>
+    <li><a href="#img6"><img src="img/galery/DSC03431.JPG"></a></li>
+    <li><a href="#img7"><img src="img/galery/DSC03432.JPG"></a></li>
+    <li><a href="#img8"><img src="img/galery/DSC03433.JPG"></a></li>
+    <li><a href="#img9"><img src="img/galery/DSC03434.JPG"></a></li>
+    <li><a href="#img10"><img src="img/galery/DSC03435.JPG"></a></li>
+    <li><a href="#img11"><img src="img/galery/img5.png"></a></li>
+    <li><a href="#img12"><img src="img/galery/img_vol1.png"></a></li>
+    <li><a href="#img13"><img src="img/galery/pedal_no_background.png"></a></li>
+    <li><a href="#img14"><video src="img/galery/vid_cam.mp4"  width="150" height="125"></a></li>
+    <li><a href="#img15"><video src="img/galery/vid_car.mp4" width="150" height="125"></a></li>
+    <li><a href="#img16"><video src="img/galery/vid_vol.mp4"  width="150" height="125"></a></li>
+  </ul>
+
+  <div class="modal" id="img1">
+    <div class="imagen">
+      <a href="#img16">&#60;</a>
+      <a href="#img2"><img src="img/galery/DSC03386.jpg"></a>
+      <a href="#img2">></a>
+    </div>
+    <a class="cerrar" href="">X</a>
+  </div>
+  
+  <div class="modal" id="img2">
+    <div class="imagen">
+      <a href="#img1">&#60;</a>
+      <a href="#img3"><img src="img/galery/DSC03420.JPG"></a>
+      <a href="#img3">></a>
+    </div>
+    <a class="cerrar" href="">X</a>
+  </div>
+  
+  <div class="modal" id="img3">
+    <div class="imagen">
+      <a href="#img2">&#60;</a>
+      <a href="#img4"><img src="img/galery/DSC03423.JPG"></a>
+      <a href="#img4">></a>
+    </div>
+    <a class="cerrar" href="">X</a>
+  </div>
+  
+  <div class="modal" id="img4">
+    <div class="imagen">
+      <a href="#img3">&#60;</a>
+      <a href="#img5"><img src="img/galery/DSC03428.jpg"></a>
+      <a href="#img5">></a>
+    </div>
+    <a class="cerrar" href="">X</a>
+  </div>
+
+  <div class="modal" id="img5">
+    <div class="imagen">
+      <a href="#img4">&#60;</a>
+      <a href="#img6"><img src="img/galery/DSC03430.jpg"></a>
+      <a href="#img6">></a>
+    </div>
+    <a class="cerrar" href="">X</a>
+  </div>
+
+ <div class="modal" id="img6">
+    <div class="imagen">
+      <a href="#img5">&#60;</a>
+      <a href="#img7"><img src="img/galery/DSC03431.JPG"></a>
+      <a href="#img7">></a>
+    </div>
+    <a class="cerrar" href="">X</a>
+  </div>  
+
+ <div class="modal" id="img7">
+    <div class="imagen">
+      <a href="#img6">&#60;</a>
+      <a href="#img8"><img src="img/galery/DSC03432.JPG"></a>
+      <a href="#img8">></a>
+    </div>
+    <a class="cerrar" href="">X</a>
+  </div>
+
+   <div class="modal" id="img8">
+    <div class="imagen">
+      <a href="#img7">&#60;</a>
+      <a href="#img9"><img src="img/galery/DSC03433.JPG"></a>
+      <a href="#img9">></a>
+    </div>
+    <a class="cerrar" href="">X</a>
+  </div>
+
+   <div class="modal" id="img9">
+    <div class="imagen">
+      <a href="#img8">&#60;</a>
+      <a href="#img10"><img src="img/galery/DSC03434.JPG"></a>
+      <a href="#img10">></a>
+    </div>
+    <a class="cerrar" href="">X</a>
+  </div>
+
+   <div class="modal" id="img10">
+    <div class="imagen">
+      <a href="#img9">&#60;</a>
+      <a href="#img11"><img src="img/galery/DSC03435.JPG"></a>
+      <a href="#img11">></a>
+    </div>
+    <a class="cerrar" href="">X</a>
+  </div>
+
+     <div class="modal" id="img11">
+    <div class="imagen">
+      <a href="#img11">&#60;</a>
+      <a href="#img12"><img src="img/galery/img5.png"></a>
+      <a href="#img12">></a>
+    </div>
+    <a class="cerrar" href="">X</a>
+  </div>
+
+     <div class="modal" id="img12">
+    <div class="imagen">
+      <a href="#img11">&#60;</a>
+      <a href="#img13"><img src="img/galery/img_vol1.png"></a>
+      <a href="#img13">></a>
+    </div>
+    <a class="cerrar" href="">X</a>
+  </div>
+
+    <div class="modal" id="img13">
+    <div class="imagen">
+      <a href="#img12">&#60;</a>
+      <a href="#img14"><img src="img/galery/pedal_no_background.png"></a>
+      <a href="#img14">></a>
+    </div>
+    <a class="cerrar" href="">X</a>
+  </div>
+
+    <div class="modal" id="img14">
+    <div class="imagen">
+      <a href="#img13">&#60;</a>
+      <a href="#img15"><video src="img/galery/vid_cam.mp4" width="420" height="340"  controls> </video>
+      <a href="#img15">></a>
+    </div>
+    <a class="cerrar" href="">X</a>
+  </div>
+
+<div class="modal" id="img15">
+    <div class="imagen">
+      <a href="#img14">&#60;</a>
+      <a href="#img16"><video src="img/galery/vid_car.mp4" width="420" height="340" controls></video>
+      <a href="#img16">></a>
+    </div>   
+<a class="cerrar" href="">X</a>
+  </div>
+
+ 
+<div class="modal" id="img16">
+    <div class="imagen">
+      <a href="#img15">&#60;</a>
+      <video src="img/galery/vid_vol.mp4" width="420" height="340" controls></video>
+      <a href="#img1">></a>
+    </div>
+    <a class="cerrar" href="">X</a>
+  </div>
+
+  <!--================ Galery end =================-->
+
+    <!-- ================ start footer Area ================= -->
+    <footer class="footer-area">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-2 col-sm-6 mb-4 mb-xl-0 single-footer-widget">
+                        <h4>Nuestros productos</h4>
+                        <ul>
+                            <li><a href="service.html">Pack completo</a></li>
+                            <li><a href="servide.html">Pack semi-completo</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xl-2 col-sm-6 mb-4 mb-xl-0 single-footer-widget">
+                        <h4>Encuentranos</h4>
+                        <ul>
+                            <li><a href="#">Instructables</a></li>
+                            <li><a href="https://www.youtube.com/channel/UC2VEYSTPbVNYy6-K6MgkIWw/featured">Youtube</a></li>
+                            <li><a href="#">Github</a></li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="footer-bottom row align-items-center text-center text-lg-left">
+            <p class="footer-text m-0 col-lg-8 col-md-12"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+    Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+        </div>
+    </div>
+    </footer>
+    <!-- ================ End footer Area ================= -->
+</div>
+
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/popper.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/stellar.js"></script>
+<script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+<script src="vendors/popup/jquery.magnific-popup.min.js"></script>
+<script src="js/jquery.ajaxchimp.min.js"></script>
+<script src="js/jquery.counterup.min.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/mail-script.js"></script>
+<script src="js/contact.js"></script>
+<script src="js/jquery.form.js"></script>
+<script src="js/jquery.validate.min.js"></script>
+<script src="js/mail-script.js"></script>
+<script src="js/theme.js"></script>
+</body>
+</html>
